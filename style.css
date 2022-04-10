@@ -1,0 +1,19 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(16, 25px);
+    grid-template-rows: repeat(16, 25px);
+    border: solid black;
+    height: 500px;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    
+   
+  }
+ .box {
+     height: auto;
+     width: auto;
+    
+     
+     margin: 0px;
+ }
