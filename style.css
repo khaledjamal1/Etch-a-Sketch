@@ -10,12 +10,15 @@
     width: 600px;
     height: 600px;
     display: grid;
-    grid-template-columns: repeat(64, 1fr);
-    grid-template-rows: repeat(64, 1fr);
     z-index: 100;
     border: 1px solid;
     border-color: black;
 }
-
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 100px;
+}
 
  
