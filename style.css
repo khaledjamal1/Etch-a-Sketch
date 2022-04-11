@@ -1,19 +1,24 @@
 #grid {
     display: grid;
-    grid-template-columns: repeat(16, 25px);
-    grid-template-rows: repeat(16, 25px);
+    grid-template-columns: repeat(100, 25px);
+    grid-template-rows: repeat(100, 25px);
     border: solid black;
     height: 500px;
     width: 500px;
     margin-right: auto;
     margin-left: auto;
-    
+    overflow: auto;
    
   }
  .box {
-     height: auto;
-     width: auto;
+     justify-content: space-evenly;
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
     
      
-     margin: 0px;
+ }
+
+ .hover{
+     background-color: black;
  }
